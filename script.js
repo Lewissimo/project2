@@ -1,5 +1,5 @@
-document.querySelector(window).onload = ()=>{
-    document.querySelector('body').onclick = ()=>{
-        this.style.backgroundColor = "white";
+window.onload = ()=>{
+    document.querySelector('body').onclick = (e)=>{
+        e.target.style.backgroundColor = "white";
     }
 }
